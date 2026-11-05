@@ -1,6 +1,6 @@
 # AI Test Orchestrator
 
-[![CI](https://github.com/jayapriya7297-sketch/AI-testing-orchestrator/actions/workflows/ci.yml/badge.svg)](https://github.com/jayapriya7297-sketch/AI-testing-orchestrator/actions/workflows/ci.yml)
+[![CI](https://github.com/JayapriyaJo/AI-testing-orchestrator/actions/workflows/ci.yml/badge.svg)](https://github.com/JayapriyaJo/AI-testing-orchestrator/actions/workflows/ci.yml)
 
 **AI-assisted test orchestration:** requirements → AI-drafted tests → human review → CI →
 failures turned into Jira bugs automatically.
@@ -78,11 +78,11 @@ flowchart LR
    The AI never writes to `tests/` or `app/` on its own.
 
 Example: REQ-002 went from drafts
-([`76b113d`](https://github.com/jayapriya7297-sketch/AI-testing-orchestrator/commit/76b113d))
+([`76b113d`](https://github.com/JayapriyaJo/AI-testing-orchestrator/commit/76b113d))
 to drafts refined from the product owner's answers
-([`775bfef`](https://github.com/jayapriya7297-sketch/AI-testing-orchestrator/commit/775bfef))
+([`775bfef`](https://github.com/JayapriyaJo/AI-testing-orchestrator/commit/775bfef))
 to tests promoted into the suite
-([`2ff77fa`](https://github.com/jayapriya7297-sketch/AI-testing-orchestrator/commit/2ff77fa)).
+([`2ff77fa`](https://github.com/JayapriyaJo/AI-testing-orchestrator/commit/2ff77fa)).
 Drafts can be run on their own with `RUN_REVIEW=1 npx playwright test --project=review`.
 
 ## Key features
